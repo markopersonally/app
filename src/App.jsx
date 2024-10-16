@@ -1,5 +1,5 @@
-import ContentContainer from "./components/ContentContainer";
-import Test from "./components/Tabs";
+import ContentContainer from "./components/ContentContainer.jsx";
+import Tabs from "./components/Tabs.jsx";
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
       <h1 className="text-4xl font-bold text-white mb-4">React</h1>
       <p className="text-lg text-white mb-8">Description</p>
       <ContentContainer />
-      <Test />
+      <Tabs />
     </div>
   );
 }
