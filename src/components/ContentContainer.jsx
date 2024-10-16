@@ -1,29 +1,27 @@
-import React from "react";
-
 const contentItems = [
   {
     id: 1,
     title: "Item 1",
     description: "Description 1",
-    img: "",
+    img: "../../public/image_mountain.png",
   },
   {
     id: 2,
     title: "Item 2",
     description: "Description 2",
-    img: "",
+    img: "../../public/image_river.png",
   },
   {
     id: 3,
     title: "Item 3",
     description: "Description 3",
-    img: "",
+    img: "../../public/image_sun.png",
   },
   {
     id: 4,
     title: "Item 4",
     description: "Description 4",
-    img: "",
+    img: "../../public/image_tree.png",
   },
 ];
 
