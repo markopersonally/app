@@ -15,7 +15,7 @@ Simple react page.
 
 ## Screenshots
 
-![image](![image](https://github.com/user-attachments/assets/6fb55b45-76a4-4a44-9f84-ee608a703ccf))
+![image](https://github.com/user-attachments/assets/9731d56d-7ca1-4bf8-8cc3-af8be97b88e3)
 
 
 ## Installation
