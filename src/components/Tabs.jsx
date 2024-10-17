@@ -21,10 +21,23 @@ export default function Tabs() {
         ))}
       </div>
       <div className="mt-4 bg-white p-4 rounded shadow">
-        {activeTab === 1 && <p>No content here yet.</p>}
-        {activeTab === 2 && <p>Content for Tab 2.</p>}
-        {activeTab === 3 && <p>Some interesting text for Tab 3!</p>}
-        {activeTab === 4 && <p>More content in Tab 4.</p>}
+        {activeTab === 1 && (
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, esse.
+          </p>
+        )}
+        {activeTab === 2 && (
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        )}
+        {activeTab === 3 && (
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        )}
+        {activeTab === 4 && (
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            laudantium? Saepe, culpa.
+          </p>
+        )}
       </div>
     </div>
   );

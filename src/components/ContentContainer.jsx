@@ -1,27 +1,36 @@
+import image1 from "../images/image_mountain.png";
+import image2 from "../images/image_tree.png";
+import image3 from "../images/image_sun.png";
+import image4 from "../images/image_river.png";
+
 const contentItems = [
   {
     id: 1,
-    title: "Item 1",
-    description: "Description 1",
-    img: "../../public/image_mountain.png",
+    title: "Mountain",
+    description:
+      "A stylized mountain, symbolizing strength and adventure, with a modern, minimalist feel.",
+    img: image1,
   },
   {
     id: 2,
-    title: "Item 2",
-    description: "Description 2",
-    img: "../../public/image_river.png",
+    title: "Tree",
+    description:
+      "A simple tree icon, representing growth and nature, in clean, light colors.",
+    img: image2,
   },
   {
     id: 3,
-    title: "Item 3",
-    description: "Description 3",
-    img: "../../public/image_sun.png",
+    title: "Sun",
+    description:
+      "A minimalistic sun symbol, radiating warmth and energy with soft pastel tones.",
+    img: image3,
   },
   {
     id: 4,
-    title: "Item 4",
-    description: "Description 4",
-    img: "../../public/image_tree.png",
+    title: "River",
+    description:
+      "A flowing river design, evoking calmness and movement, in a soft, soothing palette.",
+    img: image4,
   },
 ];
 
